@@ -1,4 +1,4 @@
-# AtomOne Service by Pathrocknetwork
+# AtomOne Service by PathrockNetwork
 
 Welcome to the Atomone Public Good Service provided by PathrockNetwork. This service offers essential tools and endpoints for interacting with the Atomone network, including RPC, API, gRPC, seed nodes, and snapshots to help you get started or stay in sync.
 
