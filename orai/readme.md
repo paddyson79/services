@@ -1,4 +1,4 @@
-# Orai Service by Pathrocknetwork
+# Orai Service by PathrockNetwork
 
 Welcome to the Orai Public Good Service provided by PathrockNetwork. This service offers essential tools and endpoints for interacting with the Orai network, including RPC, API, gRPC, seed nodes, and snapshots to help you get started or stay in sync.
 
