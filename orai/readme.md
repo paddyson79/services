@@ -14,14 +14,11 @@ Welcome to the Orai Public Good Service provided by PathrockNetwork. This servic
 
 ## Snapshot instructions
 
+```
 sudo systemctl stop oraid
-
 cp $HOME/.oraid/data/priv_validator_state.json $HOME/.oraid/priv_validator_state.json.backup
-
 rm -rf $HOME/.oraid/data
-
 curl http://snapshot.orai.pathrocknetwork.org/orai_latest.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.oraid
-
 mv $HOME/.oraid/priv_validator_state.json.backup $HOME/.oraid/data/priv_validator_state.json
-
 sudo systemctl restart oraid && sudo journalctl -u oraid -f
+```
